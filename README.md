@@ -1,36 +1,13 @@
 
-# <img src=favicon.png height=24> @whaaaley/launchpad
+# launchpad
 
-> Boilerplate for building web applications.
+> Test bench for git2serve modified from @whaaaley/launchpad
 
-## Install
+## Usage
 
-```
-sh install.sh
-```
+`docker run -p 80:80 -e WEBSITE_ID=launchpad -e WEBSITE_REPO=https://github.com/connorhartley/launchpad.git connorhartley/git2serve`
 
-## Scripts
+## Project
 
-Ensure you have GNU make version 3.8.2 or above.
-
-[See `Makefile` for details.](Makefile)
-
-### Start development
-
-Start a development server at [`http://localhost:3000/`](http://localhost:3000/) and watch for changes.
-
-```
-make
-```
-
-### Build for production
-
-```
-make build
-```
-
-## Deployment
-
-This project uses `foobar` to deploy when commits are pushed to master.
-
-[View the `foobar` dashboard for this project.](http://foobar.com)
+[@whaaaley/launchpad](https://github.com/whaaaley/launchpad) - Original Project
+[connorhartley/git2serve](https://github.com/connorhartley/git2serve) - Docker Container
