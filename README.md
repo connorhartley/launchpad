@@ -9,5 +9,5 @@
 
 ## Project
 
-[@whaaaley/launchpad](https://github.com/whaaaley/launchpad) - Original Project
-[connorhartley/git2serve](https://github.com/connorhartley/git2serve) - Docker Container
+ - [@whaaaley/launchpad](https://github.com/whaaaley/launchpad) - Original Project
+ - [connorhartley/git2serve](https://github.com/connorhartley/git2serve) - Docker Container
