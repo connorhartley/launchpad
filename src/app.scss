@@ -39,7 +39,7 @@ $dark-1: rgb(31, 33, 35);
 $dark-2: rgb(23, 25, 27);
 $dark-3: rgb(15, 17, 19);
 
-$background-light: rgb(243, 245, 247);
+$background-dark: rgb(0, 0, 0);
 
 $shadow-top-1: 0 24px 48px -12px rgba($dark-3, 0.125);
 $shadow-top-2: 0 12px 24px -6px rgba($dark-3, 0.125);
@@ -72,9 +72,18 @@ svg, table {
 
 body {
   font: 400 1em/1 '-apple-system', BlinkMacSystemFont, sans-serif;
-  background: $background-light;
+  width: 100%;
+  height: 100%;
+  background: $background-dark;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased; // 2
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 button {
@@ -122,4 +131,5 @@ button {
 
 img {
   margin: auto;
+  padding-bottom: 40vh;
 }
